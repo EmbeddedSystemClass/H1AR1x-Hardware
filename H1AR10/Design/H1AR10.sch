@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -1948,7 +1948,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <attribute name="RESISTANCE" value="270.0 Ohm"/>
 <attribute name="TOLERANCE" value="5%"/>
 </part>
-<part name="D4" library="Hexabitz" deviceset="VLMS1300-GS08" device="" value="RED">
+<part name="D1" library="Hexabitz" deviceset="VLMS1300-GS08" device="" value="RED">
 <attribute name="MFN" value="Vishay"/>
 <attribute name="MPN" value="VLMS1300-GS08"/>
 <attribute name="OCTOPART_URL" value="https://octopart.com/vlms1300-gs08-vishay-21709201"/>
@@ -4465,9 +4465,9 @@ In this library the device names are the same as the pin names of the symbols, t
 <attribute name="NAME" x="231.14" y="173.7614" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="231.14" y="178.562" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="D4" gate="G$1" x="237.49" y="175.26" smashed="yes" rot="MR0">
-<attribute name="NAME" x="242.062" y="171.704" size="1.778" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="242.062" y="179.705" size="1.778" layer="96" rot="MR0"/>
+<instance part="D1" gate="G$1" x="237.49" y="175.26" smashed="yes" rot="MR0">
+<attribute name="NAME" x="240.792" y="179.324" size="1.778" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="242.062" y="170.815" size="1.778" layer="96" rot="MR0"/>
 </instance>
 <instance part="GND22" gate="1" x="245.11" y="167.64" smashed="yes">
 <attribute name="VALUE" x="242.57" y="165.1" size="1.778" layer="96"/>
@@ -4653,7 +4653,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <segment>
 <pinref part="GND22" gate="1" pin="GND"/>
 <wire x1="245.11" y1="170.18" x2="245.11" y2="175.26" width="0.1524" layer="91"/>
-<pinref part="D4" gate="G$1" pin="C"/>
+<pinref part="D1" gate="G$1" pin="C"/>
 <wire x1="245.11" y1="175.26" x2="242.57" y2="175.26" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -4905,7 +4905,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <net name="N$18" class="0">
 <segment>
 <pinref part="R1" gate="G$1" pin="1"/>
-<pinref part="D4" gate="G$1" pin="A"/>
+<pinref part="D1" gate="G$1" pin="A"/>
 <wire x1="232.41" y1="175.26" x2="234.95" y2="175.26" width="0.1524" layer="91"/>
 </segment>
 </net>
