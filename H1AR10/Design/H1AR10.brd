@@ -8,31 +8,31 @@
 </settings>
 <grid distance="5" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="no" active="yes"/>
-<layer number="4" name="Route4" color="1" fill="4" visible="no" active="yes"/>
-<layer number="5" name="Route5" color="4" fill="4" visible="no" active="yes"/>
-<layer number="6" name="Route6" color="1" fill="8" visible="no" active="yes"/>
-<layer number="7" name="Route7" color="4" fill="8" visible="no" active="yes"/>
-<layer number="8" name="Route8" color="1" fill="2" visible="no" active="yes"/>
-<layer number="9" name="Route9" color="4" fill="2" visible="no" active="yes"/>
-<layer number="10" name="Route10" color="1" fill="7" visible="no" active="yes"/>
-<layer number="11" name="Route11" color="4" fill="7" visible="no" active="yes"/>
-<layer number="12" name="Route12" color="1" fill="5" visible="no" active="yes"/>
-<layer number="13" name="Route13" color="4" fill="5" visible="no" active="yes"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="no" active="yes"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="yes"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="yes"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="yes"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="yes"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="yes"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="yes"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="yes"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="yes"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="yes"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="yes"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="yes"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="yes"/>
 <layer number="15" name="Route15" color="23" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="12" fill="1" visible="no" active="yes"/>
+<layer number="21" name="tPlace" color="12" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="9" fill="1" visible="yes" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="12" fill="1" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="12" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
@@ -46,9 +46,9 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
@@ -58,7 +58,7 @@
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
@@ -1696,7 +1696,7 @@ design rules under a new name.</description>
 <attribute name="TOLERANCE" value="5%" x="29.21" y="43.815" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="27.672028125" y="35.447984375" size="1.016" layer="27"/>
 </element>
-<element name="D4" library="Hexabitz" package="VLMS1300-GS08" value="RED" x="25.654" y="39.37" smashed="yes">
+<element name="D1" library="Hexabitz" package="VLMS1300-GS08" value="RED" x="25.654" y="39.37" smashed="yes">
 <attribute name="MFN" value="Vishay" x="19.558" y="40.767" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="VLMS1300-GS08" x="19.558" y="40.767" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="25.249" y="37.687" size="1.016" layer="25" rot="R270"/>
@@ -1771,7 +1771,7 @@ design rules under a new name.</description>
 <contactref element="PUSB*" pad="4"/>
 <contactref element="PUSB*" pad="S1"/>
 <contactref element="PUSB*" pad="S2"/>
-<contactref element="D4" pad="C"/>
+<contactref element="D1" pad="C"/>
 <via x="26.69971875" y="37.43528125" extent="1-16" drill="0.35"/>
 <wire x1="30.352" y1="41.0845" x2="32.0421" y2="41.0845" width="0.3556" layer="1"/>
 <wire x1="32.0421" y1="41.0845" x2="32.1056" y2="41.021" width="0.3556" layer="1"/>
@@ -2336,7 +2336,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="N$18">
 <contactref element="R1" pad="1"/>
-<contactref element="D4" pad="A"/>
+<contactref element="D1" pad="A"/>
 <wire x1="25.654" y1="40.12" x2="26.5211" y2="39.2529" width="0.3556" layer="1"/>
 <wire x1="26.5211" y1="39.2529" x2="27.12218125" y2="39.2529" width="0.3556" layer="1"/>
 <wire x1="28.36" y1="37.338" x2="28.36" y2="38.01508125" width="0.3556" layer="1"/>
