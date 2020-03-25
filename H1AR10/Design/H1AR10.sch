@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="mil" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -1890,15 +1890,16 @@ In this library the device names are the same as the pin names of the symbols, t
 <attribute name="TOLERANCE" value="5%"/>
 <attribute name="VOLTAGE_RATING" value="50"/>
 </part>
-<part name="D3" library="Hexabitz" deviceset="VLMS1300-GS08" device="" value="Green">
+<part name="D3" library="Hexabitz" deviceset="VLMS1300-GS08" device="" value="ORANGE">
 <attribute name="MFN" value="Vishay"/>
-<attribute name="MPN" value="VLMTG1300-GS08 "/>
-<attribute name="OCTOPART_URL" value="https://octopart.com/vlmtg1300-gs08-vishay-21709202"/>
+<attribute name="MPN" value="VLMO1300-GS08
+"/>
+<attribute name="OCTOPART_URL" value="https://octopart.com/vlmo1300-gs08-vishay-21709200?r=sp#"/>
 </part>
-<part name="D2" library="Hexabitz" deviceset="VLMS1300-GS08" device="" value="RED">
+<part name="D2" library="Hexabitz" deviceset="VLMS1300-GS08" device="" value="YELLOW">
 <attribute name="MFN" value="Vishay"/>
-<attribute name="MPN" value="VLMS1300-GS08"/>
-<attribute name="OCTOPART_URL" value="https://octopart.com/vlms1300-gs08-vishay-21709201"/>
+<attribute name="MPN" value="VLMY1300-GS08"/>
+<attribute name="OCTOPART_URL" value="https://octopart.com/vlmy1300-gs08-vishay-21709204?r=sp"/>
 </part>
 <part name="FB2" library="Hexabitz" deviceset="FB-TDK_MMZ1608Y300B" device="" value="FB-TDK_MMZ1608Y300B">
 <attribute name="MFN" value="TDK "/>
@@ -13232,13 +13233,13 @@ In this library the device names are the same as the pin names of the symbols, t
 <text x="22.86" y="195.58" size="2.54" layer="94">VDD=3.3v</text>
 </plain>
 <instances>
-<instance part="R7" gate="G$1" x="227.33" y="76.2" smashed="yes" rot="R90">
-<attribute name="NAME" x="228.6" y="78.9686" size="1.778" layer="95"/>
-<attribute name="VALUE" x="236.22" y="74.422" size="1.778" layer="96" rot="R180"/>
+<instance part="R7" gate="G$1" x="224.79" y="76.2" smashed="yes" rot="R90">
+<attribute name="NAME" x="226.06" y="78.9686" size="1.778" layer="95"/>
+<attribute name="VALUE" x="233.68" y="74.422" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="R6" gate="G$1" x="240.03" y="76.2" smashed="yes" rot="R90">
-<attribute name="NAME" x="241.3" y="78.9686" size="1.778" layer="95"/>
-<attribute name="VALUE" x="241.3" y="72.898" size="1.778" layer="96"/>
+<instance part="R6" gate="G$1" x="242.57" y="76.2" smashed="yes" rot="R90">
+<attribute name="NAME" x="243.84" y="78.9686" size="1.778" layer="95"/>
+<attribute name="VALUE" x="243.84" y="72.898" size="1.778" layer="96"/>
 </instance>
 <instance part="SUPPLY14" gate="G$1" x="233.68" y="44.45" smashed="yes" rot="R180">
 <attribute name="VALUE" x="234.315" y="36.195" size="1.778" layer="96" rot="R90"/>
@@ -13321,13 +13322,13 @@ In this library the device names are the same as the pin names of the symbols, t
 <attribute name="NAME" x="118.364" y="89.281" size="1.778" layer="95"/>
 <attribute name="VALUE" x="118.364" y="84.201" size="1.778" layer="96"/>
 </instance>
-<instance part="D3" gate="G$1" x="240.03" y="63.5" smashed="yes" rot="MR270">
-<attribute name="NAME" x="243.078" y="68.326" size="1.778" layer="95" rot="MR180"/>
-<attribute name="VALUE" x="243.078" y="64.135" size="1.778" layer="96" rot="MR180"/>
+<instance part="D3" gate="G$1" x="242.57" y="63.5" smashed="yes" rot="MR270">
+<attribute name="NAME" x="245.618" y="68.326" size="1.778" layer="95" rot="MR180"/>
+<attribute name="VALUE" x="245.618" y="64.135" size="1.778" layer="96" rot="MR180"/>
 </instance>
-<instance part="D2" gate="G$1" x="227.33" y="63.5" smashed="yes" rot="MR270">
-<attribute name="NAME" x="229.108" y="68.326" size="1.778" layer="95" rot="MR180"/>
-<attribute name="VALUE" x="229.108" y="64.135" size="1.778" layer="96" rot="MR180"/>
+<instance part="D2" gate="G$1" x="224.79" y="63.5" smashed="yes" rot="MR270">
+<attribute name="NAME" x="226.568" y="68.326" size="1.778" layer="95" rot="MR180"/>
+<attribute name="VALUE" x="226.568" y="64.135" size="1.778" layer="96" rot="MR180"/>
 </instance>
 <instance part="FB2" gate="G$1" x="72.39" y="154.94" smashed="yes" rot="R180">
 <attribute name="NAME" x="73.66" y="158.75" size="1.778" layer="95"/>
@@ -13380,16 +13381,16 @@ In this library the device names are the same as the pin names of the symbols, t
 <net name="N$3" class="0">
 <segment>
 <pinref part="R7" gate="G$1" pin="2"/>
-<wire x1="227.33" y1="87.63" x2="227.33" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="200.66" y1="87.63" x2="227.33" y2="87.63" width="0.1524" layer="91"/>
+<wire x1="224.79" y1="87.63" x2="224.79" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="87.63" x2="224.79" y2="87.63" width="0.1524" layer="91"/>
 <pinref part="U2" gate="G$1" pin="CBUS2"/>
 </segment>
 </net>
 <net name="N$10" class="0">
 <segment>
 <pinref part="R6" gate="G$1" pin="2"/>
-<wire x1="240.03" y1="81.28" x2="240.03" y2="90.17" width="0.1524" layer="91"/>
-<wire x1="240.03" y1="90.17" x2="200.66" y2="90.17" width="0.1524" layer="91"/>
+<wire x1="242.57" y1="81.28" x2="242.57" y2="90.17" width="0.1524" layer="91"/>
+<wire x1="242.57" y1="90.17" x2="200.66" y2="90.17" width="0.1524" layer="91"/>
 <pinref part="U2" gate="G$1" pin="CBUS1"/>
 </segment>
 </net>
@@ -13412,23 +13413,23 @@ In this library the device names are the same as the pin names of the symbols, t
 <net name="N$2" class="0">
 <segment>
 <pinref part="R6" gate="G$1" pin="1"/>
-<wire x1="240.03" y1="71.12" x2="240.03" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="242.57" y1="71.12" x2="242.57" y2="68.58" width="0.1524" layer="91"/>
 <pinref part="D3" gate="G$1" pin="C"/>
 </segment>
 </net>
 <net name="N$8" class="0">
 <segment>
 <pinref part="R7" gate="G$1" pin="1"/>
-<wire x1="227.33" y1="68.58" x2="227.33" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="224.79" y1="68.58" x2="224.79" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="D2" gate="G$1" pin="C"/>
 </segment>
 </net>
 <net name="VDD" class="0">
 <segment>
-<wire x1="227.33" y1="60.96" x2="227.33" y2="50.8" width="0.1524" layer="91"/>
-<wire x1="227.33" y1="50.8" x2="233.68" y2="50.8" width="0.1524" layer="91"/>
-<wire x1="233.68" y1="50.8" x2="240.03" y2="50.8" width="0.1524" layer="91"/>
-<wire x1="240.03" y1="50.8" x2="240.03" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="224.79" y1="60.96" x2="224.79" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="224.79" y1="50.8" x2="233.68" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="233.68" y1="50.8" x2="242.57" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="242.57" y1="50.8" x2="242.57" y2="60.96" width="0.1524" layer="91"/>
 <pinref part="SUPPLY14" gate="G$1" pin="VDD"/>
 <wire x1="233.68" y1="46.99" x2="233.68" y2="50.8" width="0.1524" layer="91"/>
 <junction x="233.68" y="50.8"/>

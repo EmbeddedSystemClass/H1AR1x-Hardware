@@ -1601,18 +1601,19 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="28.73375" y="33.909" size="1.016" layer="28" rot="MR270"/>
 <attribute name="VOLTAGE_RATING" value="50" x="26.82875" y="33.274" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
-<element name="D3" library="Hexabitz" package="VLMS1300-GS08" value="Green" x="43.561" y="25.146" smashed="yes" rot="R180">
+<element name="D3" library="Hexabitz" package="VLMS1300-GS08" value="ORANGE" x="43.561" y="25.146" smashed="yes" rot="R180">
 <attribute name="MFN" value="Vishay" x="49.657" y="18.669" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="VLMTG1300-GS08 " x="49.657" y="18.669" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="VLMO1300-GS08
+" x="49.657" y="18.669" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="45.363" y="23.87625" size="1.016" layer="25" rot="R90"/>
-<attribute name="OCTOPART_URL" value="https://octopart.com/vlmtg1300-gs08-vishay-21709202" x="49.657" y="18.669" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="OCTOPART_URL" value="https://octopart.com/vlmo1300-gs08-vishay-21709200?r=sp#" x="49.657" y="18.669" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" value="RED" x="45.561" y="28.021" size="1.016" layer="27" rot="R180"/>
 </element>
-<element name="D2" library="Hexabitz" package="VLMS1300-GS08" value="RED" x="25.654" y="25.146" smashed="yes">
+<element name="D2" library="Hexabitz" package="VLMS1300-GS08" value="YELLOW" x="25.654" y="25.146" smashed="yes">
 <attribute name="MFN" value="Vishay" x="19.558" y="31.496" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="VLMS1300-GS08" x="19.558" y="31.496" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="VLMY1300-GS08" x="19.558" y="31.496" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="24.82075" y="24.00325" size="1.016" layer="25" rot="R90"/>
-<attribute name="OCTOPART_URL" value="https://octopart.com/vlms1300-gs08-vishay-21709201" x="19.558" y="31.496" size="1.778" layer="27" display="off"/>
+<attribute name="OCTOPART_URL" value="https://octopart.com/vlmy1300-gs08-vishay-21709204?r=sp" x="19.558" y="31.496" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" value="RED" x="23.654" y="22.271" size="1.016" layer="27"/>
 </element>
 <element name="FB2" library="Hexabitz" package="FB-TDK_MMZ1608Y300B" value="FB-TDK_MMZ1608Y300B" x="40.894" y="42.13225" smashed="yes" rot="R90">
